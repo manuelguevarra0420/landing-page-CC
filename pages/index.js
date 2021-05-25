@@ -1,23 +1,18 @@
+import React from 'react';
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Image from 'next/image'
+import styles from '../styles/Home.module.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navigation from '../components/Navigation';
+import Units from '../components/Units';
 
 export default function Home() {
   return (
-    <div className="container">
+    <React.Fragment>
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
-    </div>
+      <Navigation />
+      <Units />
+    </React.Fragment>    
   )
 }
