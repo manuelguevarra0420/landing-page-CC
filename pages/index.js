@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <React.Fragment>
       <Head>
+      <title>Landing Page for Create Circus</title>
       </Head>
       <Navigation />
       <Units />
