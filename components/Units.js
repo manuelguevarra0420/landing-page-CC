@@ -7,6 +7,7 @@ import Tabble from './Tabble';
 import Popular from './Popular';
 import About from './About';
 import Destinations from './Destinations';
+import Footer from './Footer';
 
 export default function Units(){
 	return(
@@ -18,6 +19,7 @@ export default function Units(){
 			<Popular />
 			<About />
 			<Destinations />
+			<Footer />
 		</React.Fragment>
 	)
-}
+}  
