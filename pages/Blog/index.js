@@ -3,10 +3,14 @@ import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 import Navigation from '../../components/Navigation';
 import { BsArrowRight } from 'react-icons/bs';
 import { GoCalendar } from 'react-icons/go';
+import Head from 'next/head';
 
 export default function index(){
 	return(
 		<React.Fragment>
+			<Head>
+				<title>Blog</title>
+			</Head>
 			<Navigation />
 			<div className="blog">
 				<h1 className="blogs">The Blog</h1>
