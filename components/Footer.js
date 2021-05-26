@@ -14,12 +14,10 @@ export default function Footer() {
       		<Row>
       			<div className="abta">
       				<Image className="footerpics" src="./images/svg/abta.svg" fluid/>
-      				<Image className="footerpics" src="./images/svg/atol.svg" fluid/>
       				<Image className="footerpics" src="./images/svg/conde.svg" fluid/>
       				<Image className="footerpics" src="./images/svg/iata.svg" fluid/>
       				<Image className="footerpics" src="./images/svg/the-british.svg" fluid/>
       				<Image className="footerpics" src="./images/svg/travelleisure.svg" fluid/>
-      				<Image className="footerpics" src="./images/svg/virtuoso.svg" fluid/>
       			</div>
       		</Row>
       		<hr className="myhr" />

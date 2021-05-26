@@ -7,10 +7,10 @@ export default function Hero(){
 			<Jumbotron>
 				<div className="middle">
 					<h1 className="light">
-						LOREM IPSUM DOLOR SIT AMET
+						WELCOME TO REPUBLIC EXPERIENCE
 					</h1>
 					<h2 className="light2">
-						Neque porro quisquam est qui dolorem ipsum 
+						~ premium travel in italy ~ 
 					</h2>
 
 					<Button className="start" variant="dark">START YOUR JOURNEY</Button>

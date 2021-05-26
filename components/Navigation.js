@@ -3,6 +3,8 @@ import { Navbar, Container, Image, NavDropdown, Nav, Button } from 'react-bootst
 import { GoGlobe } from 'react-icons/go';
 import { FiPhone } from 'react-icons/fi';
 import Head from 'next/head';
+import Link from 'next/link';
+
 
 export default function Navigation(){
 	return(
@@ -42,55 +44,22 @@ export default function Navigation(){
 			<hr className="myhr"/>
 			<Container md="fluid">
 				<Navbar expand="sm">
-				  <Navbar.Brand href="#home"><Image src="./republic.jpg" fluid/></Navbar.Brand>
+				  <Navbar.Brand href="#"><Link href="/"><a><span><Image src="./republic.jpg" className="logo" fluid/></span></a></Link></Navbar.Brand>
 				  <Navbar.Toggle />
 				  <Navbar.Collapse className="justify-content-end">
-				    <NavDropdown title={
-        									<span className="menu1 text-secondary my-auto">DESTINATIONS</span>
+				  	  <Nav className="mr-55">
+				        <Nav.Link href="#home" className="news"><Link href="/"><a><span className="home">HOME</span></a></Link></Nav.Link>
+				        <NavDropdown title={
+        									<span className="menu1 text-secondary my-auto">ITALY</span>
     									} 
     									id="nav-dropdown">
-			            <NavDropdown.Item href="#action/3.1">THE AMALFI COAST</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.2">SORENTO</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">CAPRI</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">SICILY</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">SARDINIA</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">REST OF ITALY</NavDropdown.Item>
-			        </NavDropdown>
-			        <NavDropdown title={
-        									<span className="menu1 text-secondary my-auto">EXPERIENCES</span>
-    									} 
-    									id="nav-dropdown">
-			            <NavDropdown.Item href="#action/3.1">BESPOKE HOLIDAY EXPERIENCES</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.2">ITALY'S ISLAND BY SEA</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">THE FOOD AND WINE GURU</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">THE LUXURY FAMILY EXPERIENCE</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">THE CUSTOM CULTURAL EXPERIENCE</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">THE SUPREME ADVENTURER</NavDropdown.Item>
-			        </NavDropdown>
-			        <NavDropdown title={
-        									<span className="menu1 text-secondary my-auto">EVENTS</span>
-    									} 
-    									id="nav-dropdown">
-			            <NavDropdown.Item href="#action/3.1">WEDDINGS AND HONEYMOONS</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.2">EVENT MANAGEMENT</NavDropdown.Item>
-			        </NavDropdown>
-			        <NavDropdown title={
-        									<span className="menu1 text-secondary my-auto">SERVICES</span>
-    									} 
-    									id="nav-dropdown">
-			            <NavDropdown.Item href="#action/3.1">TRANSFERS AND PRIVATE DRIVERS</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.2">HOTELS AND PRIVATE VILLAS</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">LUXURY AND PRESTIGE CAR HIRE</NavDropdown.Item>
-			            <NavDropdown.Item href="#action/3.3">PRIVATTE YACHT AND BOAT HIRE</NavDropdown.Item>
-			        </NavDropdown>
-			        <NavDropdown title={
-        									<span className="menu1 text-secondary my-auto">ABOUT</span>
-    									} 
-    									id="nav-dropdown">
-			            <NavDropdown.Item href="#action/3.1">ABOUT REPUBLIC</NavDropdown.Item>
-			        </NavDropdown>
-			        <Nav.Link className="news" href="#">NEWS</Nav.Link>
-			        <Nav.Link className="contact" href="#">CONTACT</Nav.Link>
+			            <NavDropdown.Item href="#action/3.1">ROME</NavDropdown.Item>
+			            <NavDropdown.Item href="#action/3.2">VENICE</NavDropdown.Item>
+			            <NavDropdown.Item href="#action/3.3">FLORENCE</NavDropdown.Item>
+			            <NavDropdown.Item href="#action/3.3">NAPLES</NavDropdown.Item>
+			       		</NavDropdown>
+			       		<Nav.Link href="#about" className="contact">ABOUT US</Nav.Link>
+				      </Nav>
 				  </Navbar.Collapse>
 				  <Navbar.Collapse className="justify-content-end">
 				  </Navbar.Collapse>

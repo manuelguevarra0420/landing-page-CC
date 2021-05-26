@@ -19,9 +19,8 @@ a {
 	height: 80px;
 }
 .logo {
-	width: 175px;
-	margin-bottom: -15px;
-	margin-left: 120px;
+	width: 165px;
+	margin-left: 20px;
 }
 .myhr {
 	border-width: 3px;
@@ -102,6 +101,9 @@ a {
 	font-size: 17px;
 	border-right: 2px solid grey;	
 }
+.home {
+	color: grey;
+}
 .contact {
 	color: grey;
 	font-size: 17px;	
@@ -112,7 +114,7 @@ a {
 }
 
 .jumbotron {
-	background-image: url('/images/hero.jpeg');
+	background-image: url('/images/hero.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -123,13 +125,19 @@ a {
 }
 .light {
 	color: #fff;
-	font-size: 25px;
-	margin-top: 250px;
+	font-size: 45px;
+	margin-top: 220px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px grey;
 }
 .light2 {
 	color: #fff;
-	font-size: 25px;
-	margin-top: 25px;
+	text-transform: uppercase;
+	font-size: 35px;
+	margin-top: 35px;
+	font-weight: 600;
+	text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px grey;
 }
 .start {
 	font-size: 16px;
@@ -210,9 +218,9 @@ a {
 	padding: 15px;
 	text-align: center;
 	transform: rotate(180deg);
-	margin-left: 105px;
+	margin-left: 75px;
 	height: 550px;
-	font-family: 'Luckiest Guy', cursive;
+	font-family: 'Monoton', cursive;
 	font-size: 64px;
 }
 .test{
@@ -232,7 +240,8 @@ a {
 	height: 450px;
 	line-height: 450px;
 	text-align: center;
-	background-image: url('/images/Europe.jpg');
+	background-image: url('/images/Florence.jpg');
+	background-size: cover;
 	margin-right: 20px;
 }
 
@@ -241,7 +250,8 @@ a {
 	height: 450px;
 	line-height: 450px;
 	text-align: center;
-	background-image: url('/images/NAmerica.jpg');
+	background-image: url('/images/Naples.jpg');
+	background-size: cover;
 	margin-right: 20px;
 }
 .wrapper1 .item3 {
@@ -249,7 +259,8 @@ a {
 	height: 450px;
 	line-height: 450px;
 	text-align: center;
-	background-image: url('/images/Asia.jpg');
+	background-image: url('/images/Rome.jpg');
+	background-size: cover;
 	margin-right: 20px;
 }
 .wrapper1 .item4 {
@@ -257,17 +268,11 @@ a {
 	height: 450px;
 	line-height: 450px;
 	text-align: center;
-	background-image: url('/images/SAmerica.jpg');
+	background-image: url('/images/Venice.jpg');
+	background-size: cover;
 	margin-right: 20px;
 }
-.wrapper1 .item5 {
-	min-width: 250px;
-	height: 450px;
-	line-height: 450px;
-	text-align: center;
-	background-image: url('/images/Australia.jpg');
-	margin-right: 20px;
-}
+
 .hi4{
 	color: #fff;
 	font-size: 18px;
@@ -416,6 +421,7 @@ a {
 	margin-top: 10%;
 }
 .footer {
+	margin-top: 50px;
 	width: 100%;
 	height: 480px;
 	background-color: #000;
@@ -466,6 +472,62 @@ a {
 	display: grid;
 	margin-right: 40px;
 }
+
+
+
+
+
+.blog {
+	background-image: url('/images/blog/hero.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 395px;
+	object-fit: cover;
+}
+.blogs {
+	color: #fff;
+	font-size: 75px;
+	text-align: center;
+	margin: auto;
+	padding-top: 9%;
+	width: 100%;
+	height: 395px;
+	position: absolute;
+	text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px grey;
+}
+.blog1 {
+	margin-top: 35px;
+	padding: 15px;
+}
+.blogtitle {
+	color: #54595F;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 55px;
+}
+.blogdate {
+	color: #54595F;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+}
+.blogsnippet {
+	color: #54595F;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 55px;
+}
+.blogbutton {
+	text-align: center;
+	margin-top: 55px;
+}
+.imgblog {
+	background-size: cover;
+	width: 100%;
+}
+
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 	.hi3{
 		writing-mode: horizontal-tb;
@@ -473,7 +535,7 @@ a {
 		padding: 15px;
 		margin-left: 0;
 		text-align: center;
-		font-family: 'Luckiest Guy', cursive;
+		font-family: 'Monoton', cursive;
 		font-size: 64px;
 	}
 	.lightx {
@@ -503,13 +565,35 @@ a {
 		height: 100%;
 	}
 	.footer{
-		margin-top: 0px;
-		height: 700px;
+		margin-top: 20px;
+		height: 650px;
 	}
 	.footerpics {
 		height: 35px;
 		padding: 4px;
 	}
+
+	.blogs {
+		padding-top: 16%;
+	}
+
+	.blogtitle {
+		color: #54595F;
+		font-size: 35px;
+		text-align: center;
+		margin-top: 25px;
+	}
+	.blogsnippet {
+		color: #54595F;
+		font-size: 14px;
+		text-align: center;
+		margin-top: 35px;
+	}
+	.blogbutton {
+		text-align: center;
+		margin-top: 55px;
+	}
+
 }
 
 
@@ -547,7 +631,7 @@ a {
   			padding: 15px;
   			margin-left: 0;
   			text-align: center;
-  			font-family: 'Luckiest Guy', cursive;
+  			font-family: 'Monoton', cursive;
   			font-size: 64px;
   		}
   		.aboutbutton1 {
@@ -653,8 +737,9 @@ a {
   			height: 100%;
   		}
   		.footer{
-		margin-top: 450px;
-		height: 800px;
+  			width: 100%;
+			margin-top: 30px;
+			height: 680px;
 		}
   		.footerpics {
   			height: 35px;
@@ -672,6 +757,12 @@ a {
   		}
   		.info1 {
   			margin-right: 12px;
+  		}
+
+
+  		.blogs {
+  			font-size: 38px;
+  			padding-top: 50%;
   		}
   	}
 

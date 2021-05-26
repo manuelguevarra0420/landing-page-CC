@@ -7,7 +7,7 @@ export default function Slider(){
 		<React.Fragment>
 			<Head>
 				<link rel="preconnect" href="https://fonts.gstatic.com"/>
-				<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet"/>
+				<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet"/>
 			</Head>			
 				<Container>
 					<Row>
@@ -18,23 +18,19 @@ export default function Slider(){
 							<div className="wrapper1">
 								<div className="item1">
 									<h4 className="hi4">21 Tours</h4>
-									<h2 className="hi2a">EUROPE</h2>
+									<h2 className="hi2a">FLORENCE</h2>
 								</div>
 								<div className="item2">
 									<h4 className="hi4">22 Tours</h4>
-									<h2 className="hi2a">NORTH AMERICA</h2>
+									<h2 className="hi2a">NAPLES</h2>
 								</div>
 								<div className="item3">
 									<h4 className="hi4">7 Tours</h4>
-									<h2 className="hi2a">ASIA</h2>
+									<h2 className="hi2a">ROME</h2>
 								</div>
 								<div className="item4">
 									<h4 className="hi4">21 Tours</h4>
-									<h2 className="hi2a">EUROPE</h2>
-								</div>
-								<div className="item5">
-									<h4 className="hi4">21 Tours</h4>
-									<h2 className="hi2a">EUROPE</h2>
+									<h2 className="hi2a">VENICE</h2>
 								</div>
 							</div>
 						</Col>

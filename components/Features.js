@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Image, Button } from 'react-bootstrap';
 
-
+ 
 export default function Features(){
 	return(
 		<React.Fragment>			
