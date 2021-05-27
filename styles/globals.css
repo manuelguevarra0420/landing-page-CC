@@ -556,6 +556,95 @@ a {
 	width: 100%;
 }
 
+@media only screen and (min-device-width : 361px) and (max-device-width : 375px) {
+	.abta {
+		display: grid;
+	}
+	.footerpics {
+		padding: 5px;
+	}
+	.footer {
+		height: 630px;
+	}
+	.hi3{
+		writing-mode: horizontal-tb;
+		display: inline;
+		padding: 15px;
+		margin-left: 0;
+		text-align: center;
+		font-family: 'Monoton', cursive;
+		font-size: 54px;
+	}
+	.content {
+		color: grey;
+		font-size: 18px;
+		text-align: left;
+		margin: auto;
+		width: 100%;
+	}
+	.light {
+		color: #fff;
+		text-align: center;
+		margin-top: 150px;
+		position: absolute;
+		width: 100%;
+		font-size: 23px;
+	}
+	.light2 {
+		color: #fff;
+		text-align: center;
+		margin-top: 230px;
+		position: absolute;
+		width: 100%;
+		font-size: 21px;
+	}
+	.start {
+		margin-top: 350px;
+	}
+	.lightx {
+		color: #fff;
+		text-align: center;
+		margin-top: 250px;
+		position: absolute;
+		width: 100%;
+		font-size: 25px;
+	}
+	.light2x {
+		color: #fff;
+		text-align: center;
+		margin-top: 320px;
+		position: absolute;
+		width: 100%;
+		font-size: 21px;
+	}
+	.startx {
+		text-align: center;
+		margin-top: 400px;
+		position: absolute;
+		width: 100%;
+	}
+	.box {
+	padding: 15px;
+	margin-top: 60px;
+	}
+	.pi2 {
+		font-size: 19px;
+		letter-spacing: normal;
+	}
+	.signup {
+		color: grey;
+		font-weight: 500;
+		font-size: 7px;
+	}
+	.infox {
+		font-size: 6px;
+		font-weight: 300px;
+		margin-top: -12px; 
+	}
+	.info1 {
+		margin-right: 12px;
+	}
+}
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 	.hi3{
@@ -807,6 +896,14 @@ a {
   			text-align: left;
   			margin: auto;
   			width: 100%;
+  		}
+  		.box {
+  		padding: 15px;
+  		margin-top: 80px;
+  		}
+  		.pi2 {
+  			font-size: 19px;
+  			letter-spacing: normal;
   		}
   	}
 
