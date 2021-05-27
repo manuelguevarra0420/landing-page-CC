@@ -6,7 +6,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 
-export default function Navigation(){
+export default function Navigation({home}){
 	return(
 		<React.Fragment>
 			<Head>
@@ -44,7 +44,7 @@ export default function Navigation(){
 			<hr className="myhr"/>
 			<Container md="fluid">
 				<Navbar expand="sm">
-				  <Navbar.Brand href="#"><Link href="/"><a><span><Image src="./republic.jpg" className="logo" fluid/></span></a></Link></Navbar.Brand>
+				  <Navbar.Brand href="#"><Link href="/"><a><span><Image src={home === 'home' ? "./republic.jpg" : '../republic.jpg'} className="logo" fluid/></span></a></Link></Navbar.Brand>
 				  <Navbar.Toggle />
 				  <Navbar.Collapse className="justify-content-end">
 				  	  <Nav className="mr-55">
@@ -58,7 +58,8 @@ export default function Navigation(){
 			            <NavDropdown.Item href="#action/3.3">FLORENCE</NavDropdown.Item>
 			            <NavDropdown.Item href="#action/3.3">NAPLES</NavDropdown.Item>
 			       		</NavDropdown>
-			       		<Nav.Link href="#about" className="contact">ABOUT US</Nav.Link>
+			       		<Nav.Link href="#about" className="news">ABOUT US</Nav.Link>
+			       		<Nav.Link href="#about" ><Link href="/Blog"><a><span className="contact">BLOG</span></a></Link></Nav.Link>
 				      </Nav>
 				  </Navbar.Collapse>
 				  <Navbar.Collapse className="justify-content-end">

@@ -2,6 +2,9 @@ import React from 'react';
 import { Container, Row, Col, Card, Jumbotron, Button } from 'react-bootstrap';
 
 export default function Hero(){
+
+	 
+
 	return(
 		<React.Fragment>
 			<Jumbotron>

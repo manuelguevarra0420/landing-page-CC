@@ -472,10 +472,39 @@ a {
 	display: grid;
 	margin-right: 40px;
 }
-
-
-
-
+.newsimg {
+	width: 100%;
+	height: 550px;
+	background-position: cover;
+}
+.newsblog {
+	margin-top: 50px;
+	margin-bottom: 130px;
+}
+.minititle {
+	text-align: center;
+	color: grey;
+	font-size: 23px;
+}
+.newstitle {
+	color: #000;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 25px;
+}
+.newsdate {
+	color: grey;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 15px;
+}
+.content {
+	color: grey;
+	font-size: 18px;
+	text-align: left;
+	margin: auto;
+	width: 750px;
+}
 
 .blog {
 	background-image: url('/images/blog/hero.jpg');
@@ -592,6 +621,13 @@ a {
 	.blogbutton {
 		text-align: center;
 		margin-top: 55px;
+	}
+	.content {
+		color: grey;
+		font-size: 18px;
+		text-align: left;
+		margin: auto;
+		width: 100%;
 	}
 
 }
@@ -763,6 +799,14 @@ a {
   		.blogs {
   			font-size: 38px;
   			padding-top: 50%;
+  		}
+
+  		.content {
+  			color: grey;
+  			font-size: 18px;
+  			text-align: left;
+  			margin: auto;
+  			width: 100%;
   		}
   	}
 

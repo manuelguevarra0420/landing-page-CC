@@ -4,6 +4,7 @@ import Navigation from '../../components/Navigation';
 import { BsArrowRight } from 'react-icons/bs';
 import { GoCalendar } from 'react-icons/go';
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function index(){
 	return(
@@ -23,7 +24,7 @@ export default function index(){
 							<div className="blogtitle"><h2>Top 50 Free Things To Do in Rome</h2></div>
 							<div className="blogdate"><GoCalendar/> April 4, 2021, 3:16 pm</div>
 							<div className="blogsnippet">Everyone dreamsof going to Rome at least once in their lives. But unfortunately, not everyone has the budget to do so. But you know what they say: The best things in life are free. And …</div>
-							<div className="blogbutton"><Button variant="primary">READ MORE <BsArrowRight /></Button></div>
+							<div className="blogbutton"><Link href="/Blog/news"><a><span><Button variant="primary">READ MORE <BsArrowRight /></Button></span></a></Link></div>
 						</Col>
 					</Row>
 				</div>
@@ -34,7 +35,7 @@ export default function index(){
 							<div className="blogtitle"><h2>Top 10 Budget Hotels in Rome</h2></div>
 							<div className="blogdate"><GoCalendar/> April 4, 2021, 3:16 pm</div>
 							<div className="blogsnippet">Everyone dreamsof going to Rome at least once in their lives. But unfortunately, not everyone has the budget to do so. But you know what they say: The best things in life are free. And …</div>
-							<div className="blogbutton"><Button variant="primary">READ MORE <BsArrowRight /></Button></div>
+							<div className="blogbutton"><Link href="/Blog/news"><a><span><Button variant="primary">READ MORE <BsArrowRight /></Button></span></a></Link></div>
 						</Col>
 					</Row>
 				</div>
