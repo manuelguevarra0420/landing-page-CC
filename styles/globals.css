@@ -5,7 +5,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+ 
 a {
   color: inherit;
   text-decoration: none;
@@ -484,7 +484,7 @@ a {
 	margin: auto;
 }
 .newsblog {
-	margin-top: 150px;
+	margin-top: 80px;
 	margin-bottom: 130px;
 }
 .minititle {
@@ -559,7 +559,9 @@ a {
 }
 .imgblog {
 	background-size: cover;
-	width: 100%;
+	width: 85%;
+	height: 150px;
+	margin: auto;
 }
 .form1 {
 	width: 28%;

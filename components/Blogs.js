@@ -8,7 +8,7 @@ export default function Blogs({val}){
 
 	console.log(val);
 	const {blogTitle, fileName, blogDate, blogContent} = val
-	return(
+	return( 
 		<React.Fragment>
 			<div className="blog1">
 				<Row>
