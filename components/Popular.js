@@ -16,7 +16,7 @@ export default function Popular(){
 						<Col className="text-center" md={3}><Button variant="dark">TAKE ME THERE</Button></Col>
 					</Row>
 					<hr className="myhr"/>
-				</div>
+				</div> 
 			</Container>
 			<div className="jumbotron1">
 				<div className="middle1">

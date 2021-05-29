@@ -477,8 +477,14 @@ a {
 	height: 550px;
 	background-position: cover;
 }
+.newsdiv {
+	width: 65%;
+	height: 470px;
+	background-position: cover;
+	margin: auto;
+}
 .newsblog {
-	margin-top: 50px;
+	margin-top: 150px;
 	margin-bottom: 130px;
 }
 .minititle {
@@ -555,8 +561,35 @@ a {
 	background-size: cover;
 	width: 100%;
 }
-
-@media only screen and (min-device-width : 361px) and (max-device-width : 375px) {
+.form1 {
+	width: 28%;
+	height: 310px;
+	margin: auto;
+	background-color: #ccc;
+	text-align: center;
+	margin-top: 10%;
+	padding: 15px;
+}
+.postadmin {
+	text-align: center;
+	margin: auto;
+}
+.editor{
+	width: 45%;
+	height: 450px;
+	margin: auto;
+	padding-bottom: 700px;
+}
+.upload {
+	width: 45%;
+	height: 15%;
+	margin: auto;
+	padding: 30px;;
+}
+.btnpost {
+	margin-top: 50px;
+}
+@media only screen and (min-device-width : 361px) and (max-device-width : 415px) {
 	.abta {
 		display: grid;
 	}

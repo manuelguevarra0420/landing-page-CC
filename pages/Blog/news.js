@@ -11,7 +11,7 @@ export default function news() {
 			</Head>
 			<Container md="fluid">
 				<Navigation />
-				<div>
+				<div className="newsdiv">
 					<Image src="../images/blog/blog1.jpg" className="newsimg" fluid/>
 				</div>
 				<div className="newsblog">
